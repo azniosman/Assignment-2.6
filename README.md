@@ -1,2 +1,2 @@
-# 2.5-DBaaS_Assignment
-Module 2.5 - DBaaS Assignment 
+# Assignment-2.6
+Creation of EC2 with permissions to access DynamoDB
