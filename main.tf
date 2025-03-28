@@ -1,8 +1,8 @@
 resource "aws_instance" "my_ec2" {
   ami           = "ami-0005e0cfe09cc9050" 
   instance_type = "t2.micro"
-  subnet_id     = "subnet-0de4e40b804b524bb" # Replace with a private subnet ID in us-east-1
-  key_name      = "azni"        # Replace with your EC2 key pair name
+  subnet_id     = "subnet-0b64b42cb7c4e94e5"
+  key_name      = "azni"
 
   iam_instance_profile = aws_iam_instance_profile.ec2_dynamodb_profile.name
 
